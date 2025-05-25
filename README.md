@@ -1,5 +1,6 @@
-<H3>NAME: Karsavarthan R R</H3>
-<H3>REGISTER NO: 212223230100</H3>
+
+<H3>NAME: THAMIZH KUMAREAN S</H3>
+<H3>REGISTER NO: 212223240166</H3>
 <H3>EX. NO.5</H3>
 
 <H1 ALIGN =CENTER>Implementation of XOR  using RBF</H1>
@@ -35,7 +36,7 @@ Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 
 <H3>PROGRAM:</H3>
 
-python
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -106,7 +107,7 @@ print(f"Input:{np.array([0, 0])}, Predicted: {predict_matrix(np.array([0, 0]), w
 print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w)}")
 print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
-
+```
 
 <H3>OUTPUT:</H3>
 
